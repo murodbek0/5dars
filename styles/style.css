@@ -61,11 +61,6 @@ color:#ad1212
    gap: 20px;
 }
 
-
-
-
- 
-
 .hero__container{
     display:flex;
     align-items: center;
@@ -112,6 +107,10 @@ color:#ad1212
     background-color: #405741;
     color:wheat ;
     border-radius: 10px;
+    margin-top: 20px;
+    transition: all 1s;
+    transform:rotate(360deg);
+    border: 1px solid #DCDFE4
    
 }
 .info span{
@@ -124,6 +123,7 @@ color:#ad1212
 .button img{
  justify-content: center;
  margin-top:-10px;
+ 
 }
 
 .lefa__container{
@@ -213,6 +213,7 @@ color:#ad1212
  gap: 20px;
  justify-content: center;
 }
+
 .info1{
  cursor: pointer;
 
@@ -232,7 +233,11 @@ color:#ad1212
   width: 584px;
   height: 274px;
 }
-
+.food__container{
+  max-width: 1440px;
+  width: 100px;
+  
+}
 .mnyu{
     margin-top:50px;
     
@@ -322,6 +327,9 @@ color:#E5FFF1;
 border-radius:8px;
 margin-bottom: 10px;
 transform:scale(110%);
+transition: all 1s;
+transform:rotate(36000deg);
+border: 1px solid #DCDFE4
 
 }
 .saturday button:hover{
@@ -377,6 +385,9 @@ transform:scale(110%);
     background-color: #405741;
     color: white;
     cursor: pointer;
+    transition: all 1s;
+    transform:rotate(7200deg);
+    border: 1px solid #DCDFE4
 
 }
 
@@ -389,81 +400,76 @@ transform:scale(110%);
     background-color: #252525;
     padding: 75px 0px;
 }
-footer .container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+.finished__container{
+    max-width: 1440px;
+    width: 100px;
+    margin: auto;
 
-.icon{
-  justify-content: center;
-  align-items: center;
 }
-.icon a{
-    color: #0e0d0d;
-    font-size: 14px;
+.finish{
+ display: flex;
+ justify-content: center;
+  gap:250px;
+ margin-top: 16px;
+ margin-bottom: 200px;
+}
+.nav p{
+    opacity: 0.8px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 16.41px;
-    font-family: "Roboto", sans-serif;
-    margin-top: 15px;
-}
-.icon a img{
-   margin-top: 20px;
-   text-decoration: none;
-   gap: 15px;
-}
-
-.iconi li{
-    margin-top: 15px;
-    display: flex;
+    line-height: 24px;
+    text-align: left;
+    color:rgba(9, 30, 66,0.8);
     justify-content: center;
-    margin-left: 600px;
-    margin-top:-80px;
-    text-decoration: none;
-}
-.sites{
-    display: flex;
     align-items: center;
-    gap: 10px;
+    display: flex;
+    margin-bottom: 20px;
+
+
 }
-.formalar p{
-    width: 347px;
-    height: 27px;
+.links h4{
+    /* width: 105px; */
+    /* height: 27px; */
     font-size: 18px;
     font-weight: 700;
     line-height: 27px;
     text-align: left;
     color:#091E42;
-    margin-left:1800px;
-        
-}
+    margin-bottom: 12px;
 
-.namee{
-    margin-left: 38px;
-}
- .name{
-    padding: 18px 100px 20px 18px;
-    border-radius:16px;
-    width: Fixed (702px)px;
-    height: Fixed (56px)px;
-    border: 1px solid ;
-    margin-bottom:50px;
-    margin-top:-6000px;
-    margin-left: 1800px;
     
-    
- }
- .formalar button{
- padding: 16px;
- border-radius:16px;
- background-color: #405741;
- color:white;
- }
- .formalar button:hover{
-background-color: rgb(70, 70, 199);
-color:#6aaf80;
+
+}
+.programis img{
+  width:74px ;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 30px;
+}
+.name{
+    padding: 16px;
+    border-radius:10px
 }
 
 
+ .email button{
+    padding: 16px;
+    border-radius: 10px;
+    background-color: #405741;
+    color: #E5FFF1;
+    transition: all 1s;
+    cursor: pointer;
+    transform:rotate(3600deg);
+    border: 1px solid #DCDFE4
+    
 
-
+ 
+}
+.email button:hover{
+  background-color:#2ea334 ;
+  color:#7d1971
+  
+}
